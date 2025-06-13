@@ -21,7 +21,7 @@ It builds upon a multithreaded design to achieve high performance and minimize t
 
 See the diagram below:
 
-![transcription schema](https://github.com/user-attachments/assets/f5ebf0b7-0dcc-456a-9aea-8a54e83f2e7b)
+![whisper-alsa](https://github.com/user-attachments/assets/8dfd393d-8f03-4c2f-8a43-7935a9651760)
 
 ## How to Build and Run a Test
 
