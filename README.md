@@ -35,17 +35,17 @@ To compile the application follow these steps:
 
 - clone the whisper.cpp repository and switch to the branch/release you need:
 
-     git clone https://github.com/ggml-org/whisper.cpp.git
+      git clone https://github.com/ggml-org/whisper.cpp.git
 
 - compile Whisper with:
 
-    cmake -B build
-    cmake --build build --config Release
+      cmake -B build
+      cmake --build build --config Release
 
 - compile the **wishper-alsa** with the following and replace _[whisper_path]_ with your whisper.cpp path:
 
-     cmake . -DWHISPER_CPP_DIR=[whisper_path]/whisper.cpp
-     make -j
+      cmake . -DWHISPER_CPP_DIR=[whisper_path]/whisper.cpp
+      make -j
 
 ### 2. Parameters
 
