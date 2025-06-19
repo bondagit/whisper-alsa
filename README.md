@@ -95,8 +95,8 @@ where:
 > Duration (in seconds) of each audio buffer. Default 5.
 
 > **silence_threshold**: 
-> An audio sample is marked as silence if its value is below this threshold. Default 0.001.
-> An audio buffer containing more than 100ms (1600 samples) of non-silence is passed to Whisper, > otherwise it gets discarded.
+> An audio sample is marked as silence if its value as PCM float is below this threshold. Default 0.001.
+> An audio buffer containing more than 100ms (1600 samples) of non-silence is passed to Whisper, otherwise it gets discarded.
 
 > **model**: 
 > Whisper model file path. The default is the base English model.
