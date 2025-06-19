@@ -1,5 +1,5 @@
 //
-//  transcriber.cpp
+//  main.cpp
 //
 //  Copyright (c) 2019 2025 Andrea Bondavalli. All rights reserved.
 //
