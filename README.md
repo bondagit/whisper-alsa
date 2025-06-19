@@ -25,8 +25,6 @@ See the diagram below:
 
 ## How to Build and Run a Test
 
-To enable the transcription feature in the AES67 Linux Daemon, follow these steps:
-
 ### 1. Build the application
 
 To compile the application follow these steps:
