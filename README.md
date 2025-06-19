@@ -29,7 +29,7 @@ See the diagram below:
 
 To compile the application follow these steps:
 
-- install required depdendecies, see _debian-packages.sh_ script
+- install required depdendecies, see  [debian-packages.sh](debian-packages.sh) script
 
 - clone the whisper.cpp repository and switch to the branch/release you need:
 
@@ -144,7 +144,7 @@ Transcription is presented both in real-time and at application exit:
 
 ### 4. Notes
 
-- ALSA: the application uses the ALSA interface to read from the desired capture device. The audio is captured using _S16_LE_ format as this is the most commonly supported. Audio gets resamples, downmixed and presented to Whisper as mono, _FLOAT_LE_ at 16KHz.
+- ALSA: the application uses the ALSA interface to read from the specified capture device. The audio is captured using _S16_LE_ format as this is the most supported audio format. If reuired, audio gets resamples, downmixed and presented to Whisper as mono, _FLOAT_LE_ at 16KHz.
 - Integration with Whisper: the application implements a basic integration with Whisper. Real-time transcription poses some challenges: 
   - audio chunking should be done at word boundaries to avoid cutting words.
   - adoption of LocalAgreement-2 policy can improve the transcirption accuracy: incremental audio chunks can be presented to Whisper and a confirmed transcription is returned when 2 runs agree on a text prefix.
